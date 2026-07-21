@@ -12,12 +12,12 @@ This repository documents my Python learning while preparing for Test Automation
 - [x] Variables
 - [x] Functions
 - [x] *args & **kwargs
-- [x] Conditionals
-- [x] Loops
-- [x] Lists
-- [x] Dictionaries
-- [x] Classes
-- [x] Inheritance
+- [] Conditionals
+- [] Loops
+- [] Lists
+- [] Dictionaries
+- [] Classes
+- [] Inheritance
 
 ## Projects
 
