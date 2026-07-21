@@ -9,7 +9,7 @@ This repository documents my Python learning while preparing for Test Automation
 
 ## Completed
 
-- [ ] Variables
+- [x] Variables
 - [ ] Functions
 - [ ] *args & **kwargs
 - [ ] Conditionals
