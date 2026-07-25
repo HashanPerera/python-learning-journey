@@ -29,31 +29,3 @@ create_user(
     country="United Kingdom"
 )
 
-print("\n=== Automation Example ===")
-
-
-def launch_browser(browser, *extensions, **settings):
-    """
-    Simulate launching a browser with extensions
-    and settings.
-    """
-
-    print(f"Browser: {browser}")
-
-    print("\nExtensions:")
-    for extension in extensions:
-        print("-", extension)
-
-    print("\nSettings:")
-    for key, value in settings.items():
-        print(f"{key}: {value}")
-
-
-launch_browser(
-    "Chrome",
-    "AdBlock",
-    "Grammarly",
-    headless=True,
-    timeout=30,
-    window_size="1920x1080"
-)

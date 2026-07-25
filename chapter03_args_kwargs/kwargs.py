@@ -20,18 +20,3 @@ display_user(
     age=25
 )
 
-print("\n=== Automation Example ===")
-
-
-def browser_settings(**settings):
-    """Display browser configuration."""
-
-    for key, value in settings.items():
-        print(f"{key}: {value}")
-
-
-browser_settings(
-    browser="Chrome",
-    headless=True,
-    timeout=30
-)

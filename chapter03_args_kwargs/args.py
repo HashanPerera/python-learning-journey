@@ -32,19 +32,3 @@ def print_names(*names):
 
 
 print_names("John", "Nathan", "Emily")
-
-print("\n=== Automation Example ===")
-
-
-def run_tests(*test_cases):
-    """Run multiple test cases."""
-
-    for test in test_cases:
-        print(f"Running {test}")
-
-
-run_tests(
-    "Login Test",
-    "Checkout Test",
-    "Search Test"
-)
