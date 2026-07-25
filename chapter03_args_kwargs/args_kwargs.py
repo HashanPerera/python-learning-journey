@@ -1,6 +1,4 @@
 """
-args_kwargs.py
-
 This file demonstrates:
 - Using *args and **kwargs together
 """

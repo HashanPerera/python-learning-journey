@@ -1,6 +1,4 @@
 """
-args.py
-
 This file demonstrates:
 - Using *args
 - Passing multiple positional arguments

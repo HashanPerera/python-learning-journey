@@ -1,6 +1,4 @@
 """
-kwargs.py
-
 This file demonstrates:
 - Using **kwargs
 - Passing keyword arguments
