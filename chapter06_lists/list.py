@@ -61,7 +61,7 @@ print("After insert():", fruits)
 
 print("\n=== EXTEND LIST ===")
 
-more_fruits = [23.4, "Kiwi", "Strawberry", 123]
+more_fruits = [23.4, "Kiwi", "Strawberry", 123, 12]
 
 fruits.extend(more_fruits)
 
@@ -74,6 +74,9 @@ print("After extend():", fruits)
 print("\n=== REMOVING ITEMS ===")
 
 fruits.remove("Orange")
+print("After remove():", fruits)
+
+fruits.remove(123)
 print("After remove():", fruits)
 
 fruits.pop(-1)
