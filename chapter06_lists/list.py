@@ -88,6 +88,14 @@ print("Only fruits After pop():", fruits)
 
 #print("Removed Item:", removed_fruit)
 
+# ==========================================
+# REVERSE
+# ==========================================
+
+print("\n=== REVERSE ===")
+
+numbers.reverse()
+print(numbers)
 
 # ==========================================
 # LIST LENGTH
@@ -147,3 +155,15 @@ print(brands.count("PORCH"))
 
 print("\n === Check index in the list ===")
 print(brands.index("PORCH"))
+
+# ==========================================
+# CLEAR
+# ==========================================
+
+print("\n=== CLEAR ===")
+
+colors = ["Red", "Green", "Blue"]
+print("Before Clear:", colors)
+
+colors.clear()
+print("After Clear:", colors)
