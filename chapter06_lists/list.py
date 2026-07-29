@@ -4,9 +4,12 @@ This file demonstrates:
 - Accessing list items
 - Modifying lists
 - Adding and removing items
+- Reversing lists
+- Sorting lists
 - List length
 - Iterating through lists
 - Checking Membership in a List
+- Clearing lists
 """
 
 # ==========================================
